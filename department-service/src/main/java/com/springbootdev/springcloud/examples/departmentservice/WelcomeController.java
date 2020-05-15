@@ -7,13 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RefreshScope
 @RestController
-public class WelcomeController
-{
-    @Value("${app.service-name}")
-    private String serviceName;
+public class WelcomeController {
+  @Value("${app.service-name}")
+  private String serviceName;
 
-    @GetMapping("/service")
-    public String getServiceName() {
-        return "service name [" + this.serviceName + "]";
-    }
+  @GetMapping("/service")
+  public String getServiceName() {
+    return "service name [" + this.serviceName + "]";
+  }
 }
