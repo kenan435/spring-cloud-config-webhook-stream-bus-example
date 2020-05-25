@@ -1,3 +1,9 @@
 info:
   app:
     service-name: Employee Service
+
+mysql:
+  properties:
+    url: 'jdbc:oracle:thin:@10.254.229.72:1521/MND1011.DC.MAN.LAN'
+    username: mypassword
+    password: '{cipher}4ee24fac2f52bcaeccb8dc77e148caa07e9ccee0f5d8f86271b10532830ae10a'

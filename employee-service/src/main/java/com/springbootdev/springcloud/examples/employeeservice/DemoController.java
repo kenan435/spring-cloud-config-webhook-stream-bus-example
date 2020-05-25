@@ -9,17 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class DemoController {
 
-    @Value("${encrypted.property}")
-    private String testProperty;
+  @Value("${mysql.properties.password}")
+  private String testProperty;
 
-    @Value("${test.local.property}")
-    private String localTestProperty;
-
-    @RequestMapping("/")
-    public String test() {
-        StringBuilder builder = new StringBuilder();
-        builder.append("global property - ").append(testProperty).append(" || ")
-                .append("local property - ").append(localTestProperty).append(" || ");
-        return builder.toString();
-    }
+  @RequestMapping("/demo")
+  public String test() {
+    StringBuilder builder = new StringBuilder();
+    builder.append("global property - ").append(testProperty);
+    return builder.toString();
+  }
 }
