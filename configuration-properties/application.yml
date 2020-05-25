@@ -1,1 +1,3 @@
-app.developer.name=Kenan Karamehmedovic
+app:
+  developer:
+    name: Kenan Karamehmedovic

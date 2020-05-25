@@ -1,1 +1,3 @@
-app.service-name=Department Service (Updated for Webhook Test) - it seems to work my dawg call it what you will
+info:
+  app:
+    service-name: Department Service

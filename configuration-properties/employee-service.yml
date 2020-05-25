@@ -1,1 +1,3 @@
-app.service-name = Department Service (updated)
+info:
+  app:
+    service-name: Employee Service
