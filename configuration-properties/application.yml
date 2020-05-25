@@ -1,3 +1,7 @@
-app:
-  developer:
-    name: Kenan Karamehmedovic
+api:
+  zusatzdatenserver:
+    url: https://ppc-dev.dc.man.lan/api/
+  productioncalendar:
+    url: https://ppc-dev.dc.man.lan/productioncalendar/
+  core:
+    url: http://dcdefrdlx045vi.dc.man.lan:5603/
