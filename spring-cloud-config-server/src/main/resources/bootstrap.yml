@@ -1,0 +1,11 @@
+encrypt:
+  key: ${ENCRYPT_KEY}
+  fail-on-error: false
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: true
